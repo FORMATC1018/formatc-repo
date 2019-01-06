@@ -1,5 +1,5 @@
 #coding: utf-8
-date = '01.01.2000'
+date = input("Введите дату через точку ")
 date_list=date.split(".")
 dict_months = {
 '01': 'января',
